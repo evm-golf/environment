@@ -1,0 +1,26 @@
+name: build
+
+on:
+  workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install Dependencies
+        run: npm install --save-dev
+
+      - name: Compile Contract
+        run: npx hardhat compile
+
+      - name: Publish
+        run: |
+          git config --global user.email "evm-golf@github.io"
+          git config --global user.name "evm-golf"
+          git checkout -b release
+          git add .
+          git commit -m release
+          git push -u origin release -f
