@@ -1,0 +1,110 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/runner/work/environment/environment/contracts/Solution.sol": {
+      "lastModificationDate": 1662190767234,
+      "contentHash": "15faf4d830304496448478023bdd47a1",
+      "sourceName": "contracts/Solution.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 0
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "Solution"
+      ]
+    },
+    "/home/runner/work/environment/environment/contracts/eval/Checker.sol": {
+      "lastModificationDate": 1662190767234,
+      "contentHash": "225df8a4f19a708c07d4ba6a35855e83",
+      "sourceName": "contracts/eval/Checker.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 0
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "Checker"
+      ]
+    },
+    "/home/runner/work/environment/environment/contracts/eval/Deployer.sol": {
+      "lastModificationDate": 1662190767234,
+      "contentHash": "a3174b16c38617c69b998c8d9bb5fcdc",
+      "sourceName": "contracts/eval/Deployer.sol",
+      "solcConfig": {
+        "version": "0.8.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 0
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.16"
+      ],
+      "artifacts": [
+        "Deployer"
+      ]
+    }
+  }
+}
