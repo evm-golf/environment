@@ -1,3 +1,12 @@
-remote_theme: pages-themes/hacker@v0.2.0
+theme: minima
+title: EVM Golf
+github_username: evm-golf
+header_pages:
+  - challenges/README.md
+  - leaderboard/README.md
 plugins:
-- jekyll-remote-theme
+  - jekyll-titles-from-headings
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
